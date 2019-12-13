@@ -29,7 +29,7 @@ test('if fizzBuzz(number) returns an array where the 45th[44] element of the arr
     expect(actual).toEqual(expected)
 })
 
-test('if fizzBuzz(number) returns an array where the 61st[60] element of the array is "61"', function () {
+test('if fizzBuzz(number) returns an array where the 61st[60] element of the array is 61', function () {
     let expected = 61
     let actual = fizzBuzz(number)[60] 
     expect(actual).toEqual(expected)
